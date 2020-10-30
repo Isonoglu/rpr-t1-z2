@@ -7,7 +7,7 @@ public class Main {
     private static int sumaCifara(int broj){
         int suma = 0;
         while(broj != 0){
-            suma = suma + broj%10;
+            suma = suma + broj % 10;
             broj = broj / 10;
         }
         return suma;
